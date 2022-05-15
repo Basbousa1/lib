@@ -920,7 +920,11 @@ function Library:create(options)
 	rawset(mt, "creditsContainer", creditsTab.container)
 
 	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-
+Tab:Button{
+	Name = "Button",
+	Description = nil,
+	Callback = function() end
+}
 	return mt
 end
 
